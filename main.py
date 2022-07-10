@@ -14,5 +14,8 @@ async def on_message(message):
 
   if message.content.startswith("what we doin"):
     await message.channel.send("Farming commits.")
+    
+  if message.content.startswith("link my git"):
+    await message.channel.send("https://github.com/josh894")
 
 client.run(TOKEN)
