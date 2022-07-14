@@ -17,5 +17,8 @@ async def on_message(message):
     
   if message.content.startswith("link my git"):
     await message.channel.send("https://github.com/josh894")
+    
+   if message.content.startswith("get everyone here"):
+     await message.channel.send("@frequents get in here")
 
 client.run(TOKEN)
